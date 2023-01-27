@@ -1,24 +1,124 @@
-.navContainer {
-  display: grid;
-  grid-template-columns: 1fr 7fr;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.2rem 3rem;
-  background-color: black;
-}
-.title {
-  color: white;
-}
-.iconContent {
+.navbar {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 0.2rem 3rem;
+  /* right: 0;
+  top: 0;
+  left: 0; */
+  background-color: black;
+  transition: all 0.5 ease-in-out;
 }
-.iconContainer {
+.navbar .open {
+  width: 100% !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar .smallScreen {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 0;
+  height: 100%;
+  z-index: 1;
+  overflow-x: hidden;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar .smallScreen .smallItem {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  right: 0;
+  bottom: 0;
+}
+
+.navbar .smallScreen .smallItem .list {
+  text-decoration: none;
+  list-style: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+}
+
+.navbar .smallScreen .hamburger-cross,
+.navbar .hamburger-icon {
+  color: white;
+  margin: 0;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.navbar .hamburger-icon {
+  display: block;
+}
+
+.navbar .largeScreen {
+  display: none;
+}
+
+.navbar .largeScreen .iconContainer .title {
+  display: none;
+}
+.navbar .largeScreen {
+  display: none;
+}
+.navbar .largeScreen .iconContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar .hamburger-icon {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .navbar .smallScreen {
+    display: none;
+  }
+
+  .navbar .largeScreen {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 3rem;
+  }
+
+  .navbar .largeScreen .iconContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar .largeScreen .iconContainer .title {
+    color: white;
+    display: flex;
+  }
 }
