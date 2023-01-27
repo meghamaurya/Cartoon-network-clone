@@ -2,10 +2,10 @@ import React from "react";
 
 const Icons = (props) => {
   return (
-    <div className="iconContainer">
+    <div className="iconContainer" key={props.iconId}>
       <img
         src={props.iconUrl}
-        alt={`logo${props.key}`}
+        alt={`logo${props.iconId}`}
         className="icons"
         width="40px"
       />
