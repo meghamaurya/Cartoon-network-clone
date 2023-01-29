@@ -1,10 +1,10 @@
 import React from "react";
-import ImageCard from "./Image";
+import Slider from "./Slider";
 
 const SecondNav = () => {
   return (
     <nav>
-      <ImageCard />
+      <Slider />
     </nav>
   );
 };

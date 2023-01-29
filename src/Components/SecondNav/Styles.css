@@ -1,0 +1,40 @@
+.secondNavContainer {
+  display: flex;
+}
+.slider {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #fcfbfc;
+}
+.secondNavImg {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-radius: 6rem;
+  margin: 0.8rem;
+}
+
+.imgComponent {
+  /* display: inline-block; */
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.imgComponent:hover {
+  transform: scale(1.2);
+}
+
+.slideBtn {
+  position: relative;
+  padding: 0rem 1.5rem;
+  background-color: rgb(244, 244, 244);
+  font-size: xx-large;
+  border: none;
+  cursor: pointer;
+}
