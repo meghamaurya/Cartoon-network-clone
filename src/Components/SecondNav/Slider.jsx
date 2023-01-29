@@ -26,7 +26,7 @@ const Slider = () => {
       <button
         onClick={() => scrollSlides("prev")}
         className="slideBtn"
-        style={{ boxShadow: "-4px 0 5px -4px #bdbdbd inset" }}
+        style={{ boxShadow: "3px 0px 6px rgba(0, 0, 0, 0.2)" }}
       >
         <IoChevronBackSharp />
       </button>
@@ -51,7 +51,7 @@ const Slider = () => {
       <button
         onClick={() => scrollSlides("next")}
         className="slideBtn"
-        style={{ boxShadow: "4px 0 5px -4px #bdbdbd inset" }}
+        style={{ boxShadow: "-3px 0px 6px rgba(0, 0, 0, 0.2)" }}
       >
         <IoChevronForward />
       </button>
