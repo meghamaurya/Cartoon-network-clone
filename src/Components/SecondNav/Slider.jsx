@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import Images from "./Images.json";
 import "./Styles.css";
-import { IoChevronBackSharp, IoChevronForward } from "react-icons/io5";
+import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 const Slider = () => {
   const [clickCount, setClickCount] = useState(0);
   const mainWrap = useRef();
@@ -15,6 +15,7 @@ const Slider = () => {
     const newValue = (clickCount + diff) % (Images.length / 4);
     setClickCount(newValue);
     scrollTo = width * newValue;
+    console.log(scrollTo, "scrollto");
 
     containerRef.current?.scrollTo({
       behavior: "smooth",
@@ -28,7 +29,7 @@ const Slider = () => {
         className="slideBtn"
         style={{ boxShadow: "3px 0px 6px rgba(0, 0, 0, 0.2)" }}
       >
-        <IoChevronBackSharp />
+        <MdArrowBackIos />
       </button>
       <div className="slider" ref={containerRef}>
         {Images.map((img) => {
@@ -53,7 +54,7 @@ const Slider = () => {
         className="slideBtn"
         style={{ boxShadow: "-3px 0px 6px rgba(0, 0, 0, 0.2)" }}
       >
-        <IoChevronForward />
+        <MdArrowForwardIos />
       </button>
     </div>
   );
