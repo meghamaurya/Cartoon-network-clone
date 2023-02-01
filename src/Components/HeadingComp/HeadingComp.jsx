@@ -1,12 +1,13 @@
 import React from "react";
+import "./Styles.css";
 
 const HeadingComp = (props) => {
   return (
     <>
-      <h1>
+      <div className="h1">
         <props.Icon className="remoteIcon" />
         <strong className="title">{props.title}</strong>
-      </h1>
+      </div>
     </>
   );
 };
