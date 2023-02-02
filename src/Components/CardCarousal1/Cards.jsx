@@ -1,8 +1,6 @@
 import React from "react";
 import "./Styles.css";
-import CardDetail from "./CardDetail.json";
-import { IoGameController } from "react-icons/io5";
-const Cards = () => {
+const Cards = ({ CardDetail, Icon }) => {
   return (
     <>
       {CardDetail.map((item) => {
@@ -16,7 +14,7 @@ const Cards = () => {
               </div>
               <div>
                 <i>
-                  <IoGameController className="gameIcon" />
+                  <Icon className="gameIcon" />
                 </i>
               </div>
             </div>
