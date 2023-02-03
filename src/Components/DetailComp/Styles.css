@@ -1,0 +1,13 @@
+.dcContainer {
+  background-color: rgb(50, 50, 50);
+  padding: 2rem 1rem;
+}
+
+.dcContainer .dcCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82vw;
+  margin: 2rem auto;
+  border-radius: 2rem;
+}
