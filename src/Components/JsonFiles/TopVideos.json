@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "https://ti-content-global.cdn.turner.com/PROD-APAC/C_REDRAW_XX001002_CKL_AFE/C_REDRAW_XX001002_CKL_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+        "title": "Redraw Your World",
+        "heading": "Redraw Your World | 30'"
+      },
+      {
+        "id": 2,
+        "imgUrl":
+          "https://ti-content-global.cdn.turner.com/PROD-APAC/C_REDRAW_XX003040_CKL_AFE/C_REDRAW_XX003040_CKL_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+        "title": "Redraw Your World",
+        "heading": "Redraw Your World | A..."
+      },
+      {
+        "id": 3,
+        "imgUrl": "https://ti-content-global.cdn.turner.com/PROD-APAC/C_REDRAW_XX002021_CKL_AFE/C_REDRAW_XX002021_CKL_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+        "title": "Redraw Your World",
+        "heading": "Redraw Your World | 90'"
+      },
+      {
+        "id": 4,
+        "imgUrl":
+          "https://ti-content-global.cdn.turner.com/PROD-APAC/C_REDRAW_XX005078_CKL_AFE/C_REDRAW_XX005078_CKL_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+        "title": "Redraw Your World",
+        "heading": "Redraw Your World | 60'"
+      },
+      {
+        "id": 5,
+        "imgUrl":
+          "https://ti-content-global.cdn.turner.com/PROD-APAC/C_REDRAW_XX004058_CKL_AFE/C_REDRAW_XX004058_CKL_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+        "title": "Redraw Your World",
+        "heading": "Redraw Your World | H..."
+      },
+      {
+          "id": 6,
+          "imgUrl": "https://ti-content-global.cdn.turner.com/PROD-APAC/C_CNDACH_XXxxx058_SEP_AFE/C_CNDACH_XXxxx058_SEP_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+          "title": "CN Dance Challenge",
+          "heading": "CN Dance Challenge: ''..."
+        },
+        {
+          "id": 7,
+          "imgUrl": "https://ti-content-global.cdn.turner.com/PROD-APAC/C_CNDACH_XXxxx057_SEP_AFE/C_CNDACH_XXxxx057_SEP_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+          "title": "CN Dance Challenge",
+          "heading": "CN Dance Challenge: ''..."
+        },
+        {
+          "id": 8,
+          "imgUrl":
+            "https://ti-content-global.cdn.turner.com/PROD-APAC/C_CNDACH_XXxxx060_SEP_AFE/C_CNDACH_XXxxx060_SEP_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+          "title": "CN Dance Challenge",
+          "heading": "CN Dance Challenge: ''..."
+        },
+        {
+          "id": 9,
+          "imgUrl": "https://ti-content-global.cdn.turner.com/PROD-APAC/C_CNDACH_XXxxx061_SEP_AFE/C_CNDACH_XXxxx061_SEP_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+          "title": "CN Dance Challenge",
+          "heading": "CN Dance Challenge: ''..."
+        },
+        {
+          "id": 10,
+          "imgUrl":
+            "https://ti-content-global.cdn.turner.com/PROD-APAC/C_CNDACH_XXxxx056_SEP_AFE/C_CNDACH_XXxxx056_SEP_AFE_VIDSCREENSHOT.jpg?imwidth=300",
+          "title": "CN Dance Challenge",
+          "heading": "CN Dance Challenge: ''..."
+        }
+]
