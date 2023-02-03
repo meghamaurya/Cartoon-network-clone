@@ -1,0 +1,39 @@
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  color: white;
+  margin: 2rem auto;
+  padding: 0rem 2rem;
+  border-radius: 0.5rem;
+  transition: transform 0.25s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.btnContainer .gameremote {
+  font-size: 2.5rem;
+}
+
+.btnContainer .gameTitle {
+  font-size: 0.8rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.btnContainer .arrow {
+  font-size: 2rem;
+}
+
+.btnContainer:hover {
+  transform: scale(1.04);
+}
+
+@media (min-width: 768px) {
+  .btnContainer .gameTitle {
+    font-size: 1.6rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+  }
+}
