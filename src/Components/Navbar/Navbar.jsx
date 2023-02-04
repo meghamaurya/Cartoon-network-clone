@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Icons from "./Icons";
 import "./Styles.css";
-import icons from "./NavItems.json";
+import icons from "../JsonFiles/NavItems.json";
 import { IoMdMenu } from "react-icons/io";
 import { RiCloseLine } from "react-icons/ri";
 import { List } from "./List";

@@ -1,17 +1,30 @@
 import React from "react";
-import { IoGameController } from "react-icons/io5";
+
 import Carousal from "../Carousal/Carousal";
 import HeadingComp from "../HeadingComp/HeadingComp";
-import GameCard from "./GameCards";
-import CardDetail from "./Games.json";
+import GameCards from "../GameCards/GameCards";
+import "./Styles.css";
+import Button from "../Button/Button";
 
-const FeaturedGame = () => {
+const FeaturedGame = ({
+  SecBgColor,
+  CardDetail,
+  Icon,
+  btnTitle,
+  bgcolor,
+  HeadTitle,
+  titleIcon,
+}) => {
   return (
-    <section className="featureContainer">
-      <HeadingComp Icon={IoGameController} title={"Featured games"} />
+    <section
+      className="featureContainer"
+      style={{ background: `${SecBgColor}`, backgroundPosition: "center" }}
+    >
+      <HeadingComp Icon={Icon} HeadTitle={HeadTitle} bgColor={bgcolor} />
       <Carousal>
-        <GameCard CardDetail={CardDetail} />
+        <GameCards CardDetail={CardDetail} Icon={Icon} />
       </Carousal>
+      <Button title={btnTitle} Icon={Icon} bgColor={bgcolor} width="55%" />
     </section>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import Images from "./Images.json";
+import Images from "../JsonFiles/Images.json";
 import "./Styles.css";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 const Slider = () => {

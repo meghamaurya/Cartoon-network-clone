@@ -10,7 +10,7 @@ const Button = ({ Icon, title, bgColor, width }) => {
       className="btnContainer"
       style={{ backgroundColor: `${bgColor}`, width: `${width}` }}
     >
-      {Icon ? <Icon className="gameremote" /> : " "}
+      {Icon ? <Icon className="gameremote" /> : ""}
       <h1 className="gameTitle">{title}</h1>
       <ImArrowRight2 className="arrow" />
     </div>

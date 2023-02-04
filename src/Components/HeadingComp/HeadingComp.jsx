@@ -1,15 +1,16 @@
 import React from "react";
 import "./Styles.css";
 
-const HeadingComp = (props) => {
+const HeadingComp = ({ bgColor, Icon, HeadTitle }) => {
+  // console.log(Icon, "headingcomp");
   return (
     <>
       <div className="h1">
-        <props.Icon
+        <Icon
           className="remoteIcon"
-          styles={{ backgroundColor: `${props.bgColor}` }}
+          style={{ backgroundColor: `${bgColor}` }}
         />
-        <strong className="title">{props.title}</strong>
+        <strong className="title">{HeadTitle}</strong>
       </div>
     </>
   );
